@@ -19,7 +19,7 @@ header {
     padding: 10px 200px ;
 }
 .logo{
-  width: 5vw;
+  width: 10vw;
 }
 
 /* .logo{
@@ -39,7 +39,7 @@ header {
     color: #bac34e;
   }
   section {
-    padding: 100px 200px;
+    padding: 10vh 10vw;
     min-height: 100vh;
   }
 
@@ -74,7 +74,7 @@ header {
 }
 
 .footer-title {
-    font-size: 1em;
+    font-size: 2vw;
     font-weight: 600;
     
 }
@@ -100,6 +100,30 @@ section{
 }
 iframe{
   width :90vw;
-  height:100vh;
+  height:120vh;
 }
 }
+@media (max-height:750px){
+
+iframe{
+  
+  height:180vh;
+}
+}
+@media (max-height:510px){
+
+  iframe{
+  
+    height:250vh;
+  }
+  }
+  @media (max-width:320px){
+
+    iframe{
+      width :120vw;
+    
+    }
+    .footer{
+      width: 120vw;
+    }
+    }
