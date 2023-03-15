@@ -369,7 +369,7 @@ span{
   width: 20vw;
 }
 section{
-  padding: 4vh 4vw;
+  padding: 4vh 2vw 0px 0px;
 }
 
   .css-typing p {
@@ -423,6 +423,6 @@ section{
 
 @media (max-width:200px){
   section{
-    padding: 4vh 1vw;
+    padding: 4vh 1vw 0px 0px;
   }
 }
